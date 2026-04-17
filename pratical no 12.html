@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crunchyroll</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Crunchyroll</a>
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Anime</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Manga</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://cdn.myanimelist.net/images/anime/10/47347l.jpg" class="d-block w-100" style="height:350px; object-fit:cover;" alt="AOT">
+        <div class="carousel-caption">
+          <h3>Attack on Titan</h3>
+          <p>Watch Now</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.myanimelist.net/images/anime/1286/99889l.jpg" class="d-block w-100" style="height:350px; object-fit:cover;" alt="DS">
+        <div class="carousel-caption">
+          <h3>Demon Slayer</h3>
+          <p>Watch Now</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.myanimelist.net/images/anime/6/73245l.jpg" class="d-block w-100" style="height:350px; object-fit:cover;" alt="OP">
+        <div class="carousel-caption">
+          <h3>One Piece</h3>
+          <p>Watch Now</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- Buttons -->
+  <div class="container mt-3">
+    <h4>Genre</h4>
+    <button class="btn btn-primary">Action</button>
+    <button class="btn btn-secondary">Romance</button>
+    <button class="btn btn-success">Comedy</button>
+    <button class="btn btn-danger">Horror</button>
+    <button class="btn btn-warning">Fantasy</button>
+  </div>
+
+  <!-- Cards using Grid -->
+  <div class="container mt-4">
+    <h4>Popular Anime</h4>
+    <div class="row">
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img src="https://cdn.myanimelist.net/images/anime/10/47347.jpg" class="card-img-top" alt="AOT">
+          <div class="card-body">
+            <h5 class="card-title">Attack on Titan</h5>
+            <p class="card-text">Action anime</p>
+            <a href="#" class="btn btn-primary">Watch</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img src="https://cdn.myanimelist.net/images/anime/1286/99889.jpg" class="card-img-top" alt="DS">
+          <div class="card-body">
+            <h5 class="card-title">Demon Slayer</h5>
+            <p class="card-text">Action anime</p>
+            <a href="#" class="btn btn-primary">Watch</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img src="https://cdn.myanimelist.net/images/anime/5/17407.jpg" class="card-img-top" alt="Naruto">
+          <div class="card-body">
+            <h5 class="card-title">Naruto</h5>
+            <p class="card-text">Action anime</p>
+            <a href="#" class="btn btn-primary">Watch</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img src="https://cdn.myanimelist.net/images/anime/6/73245.jpg" class="card-img-top" alt="OP">
+          <div class="card-body">
+            <h5 class="card-title">One Piece</h5>
+            <p class="card-text">Adventure anime</p>
+            <a href="#" class="btn btn-primary">Watch</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center mt-4 p-3">
+    <p>Copyright 2024 Crunchyroll. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
