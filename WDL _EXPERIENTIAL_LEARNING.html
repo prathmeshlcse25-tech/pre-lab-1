@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head><title>Skyline Properties</title></head>
+<body>
+<h1>Skyline Properties</h1><hr>
+<table border="1">
+<tr>
+<!-- Sidebar -->
+<td valign="top" width="150">
+  <h3>Filter</h3>
+  Price: <select><option>All</option><option>Below 50L</option><option>50L-1Cr</option></select><br><br>
+  BHK: <select><option>All</option><option>1 BHK</option><option>2 BHK</option><option>3 BHK</option></select><br><br>
+  <input type="button" value="Apply">
+</td>
+<!-- Listings -->
+<td valign="top">
+  <h3>Listings</h3>
+  <table border="1"><tr>
+    <td><img src="https://via.placeholder.com/100x70?text=Property1"></td>
+    <td>Green Valley | 2BHK | 45L | Pune<br>
+    <input type="button" value="View" onclick="document.getElementById('m1').style.display='block'"></td>
+  </tr></table><br>
+  <table border="1"><tr>
+    <td><img src="https://via.placeholder.com/100x70?text=Property2"></td>
+    <td>Skyline Heights | 3BHK | 90L | Mumbai<br>
+    <input type="button" value="View" onclick="document.getElementById('m2').style.display='block'"></td>
+  </tr></table><br>
+  <table border="1"><tr>
+    <td><img src="https://via.placeholder.com/100x70?text=Property3"></td>
+    <td>Blue Star | 1BHK | 25L | Nashik<br>
+    <input type="button" value="View" onclick="document.getElementById('m3').style.display='block'"></td>
+  </tr></table>
+</td>
+</tr>
+</table>
+<!-- Modals -->
+<div id="m1" style="display:none;border:1px solid black;padding:10px;width:300px">
+  <b>Green Valley</b> | 2BHK | 45L | Pune<br>Area: 950sqft | Contact: 9876543210<br>
+  <input type="button" value="Close" onclick="document.getElementById('m1').style.display='none'">
+</div>
+<div id="m2" style="display:none;border:1px solid black;padding:10px;width:300px">
+  <b>Skyline Heights</b> | 3BHK | 90L | Mumbai<br>Area: 1400sqft | Contact: 9123456780<br>
+  <input type="button" value="Close" onclick="document.getElementById('m2').style.display='none'">
+</div>
+
+<div id="m3" style="display:none;border:1px solid black;padding:10px;width:300px">
+  <b>Blue Star</b> | 1BHK | 25L | Nashik<br>Area: 600sqft | Contact: 9988776655<br>
+  <input type="button" value="Close" onclick="document.getElementById('m3').style.display='none'">
+</div>
+
+</body>
+</html>
